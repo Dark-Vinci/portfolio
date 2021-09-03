@@ -1,0 +1,65 @@
+.container {
+    width: 100vw;
+    height: 90vh;
+    // background-color: rgb(143, 0, 143);
+    background-color: rgb(32, 0, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(253, 163, 253);
+    margin-bottom: 0px;
+
+    .hand {
+        animation-name: example;
+        animation-duration: 0.9s;
+        animation-iteration-count: infinite;
+        transform: rotate(20deg);
+        animation-direction: alternate-reverse;
+        transform-origin: center;
+        animation-timing-function: linear;
+    }
+
+    @keyframes example {
+        0% {
+            transform: rotate(-20deg);
+        }
+        25% {
+            transform: rotate(-10deg);
+        }
+        50% {
+            transform: rotate(0deg);
+        }
+
+        75% {
+            transform: rotate(10deg);
+        }
+
+        100% {
+            transform: rotate(20deg);
+        }
+    }
+
+    div.icon {
+        width: 100%;
+        text-align: right;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        background-color: rgb(43, 1, 43);
+        padding: 10px;
+
+        i {
+            margin-right: 30px;
+            top: 20px;
+        }
+    }
+
+    p {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+}

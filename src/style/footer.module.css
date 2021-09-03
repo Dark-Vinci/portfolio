@@ -1,0 +1,39 @@
+footer.container {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  margin-top: 0px;
+  background-color: #150115;
+  padding: 5px;
+  color: white;
+  max-width: 100vw;
+}
+
+footer.container > div:nth-child(1) {
+  font-size: 18px;
+  padding: 5px;
+}
+
+footer.container > div:nth-child(2) {
+  width: 100%;
+}
+
+footer.container > div:nth-child(2) p {
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+}
+
+footer.container > div:nth-child(2) > ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+footer.container > div:nth-child(2) > ul li {
+  width: 100%;
+  margin: 0px calc((100vw / 2) - 40px);
+  text-align: left;
+  max-width: 150px;
+}
+/*# sourceMappingURL=footer.module.css.map */

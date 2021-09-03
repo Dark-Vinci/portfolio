@@ -1,0 +1,55 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  background-color: #d103d1;
+  height: 250px;
+}
+
+.container input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  text-align: center;
+  margin: 20px 0px;
+  width: 250px;
+  border-bottom: 2px solid #300230;
+}
+
+.container input:active, .container input:focus {
+  border-bottom: 2px solid #f24cf2;
+}
+
+.container button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  font-family: inherit;
+  border-radius: 30px;
+  background-color: #4d034d;
+  border: 2px solid white;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.container button:active, .container button:hover {
+  background-color: white;
+  color: #420342;
+  border: none;
+}
+/*# sourceMappingURL=form.module.css.map */

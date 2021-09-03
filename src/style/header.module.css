@@ -1,0 +1,106 @@
+.container {
+  width: 100vw;
+  height: 90vh;
+  background-color: #200020;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fda3fd;
+  margin-bottom: 0px;
+}
+
+.container .hand {
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 0.9s;
+          animation-duration: 0.9s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+  animation-direction: alternate-reverse;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes example {
+  0% {
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+  25% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  75% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  100% {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+}
+
+@keyframes example {
+  0% {
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+  25% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  75% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  100% {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+}
+
+.container div.icon {
+  width: 100%;
+  text-align: right;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #2b012b;
+  padding: 10px;
+}
+
+.container div.icon i {
+  margin-right: 30px;
+  top: 20px;
+}
+
+.container p {
+  font-size: 2em;
+}
+
+.container h2 {
+  font-size: 50px;
+}
+/*# sourceMappingURL=header.module.css.map */

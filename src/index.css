@@ -1,10 +1,25 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url('./fonts/Quicksand-Light.woff2') format('woff2'),
+      url('./fonts/Quicksand-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+::placeholder {
+  color: white;
+  font-size: 16px;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Quicksand';
+  max-width: 100vw;
+  background-color: rgb(141, 7, 141);
+  scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 code {

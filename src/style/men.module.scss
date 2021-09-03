@@ -1,0 +1,52 @@
+.container {
+    position: fixed;
+    z-index: 200;
+    background-color: rgb(49, 2, 49);
+    transition: all 0.5s;
+    color: white;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 10px;
+
+    h3 {
+        font-size: 30px;
+        color: rgb(252, 179, 252);
+    }
+
+    ul {
+        list-style-type: none;
+        width: 100%;
+        margin-left: 0px;
+        padding: 0px;
+        text-align: left;
+
+        li {
+            margin-left: 0px;
+            width: 90%;
+            margin: 0px 5px;
+            padding-left: 5px;
+            font-size: 20px;
+            padding: 10px 5px;
+            transition: all 0.5s;
+
+            a {
+                text-decoration: none;
+                color: rgb(252, 179, 252);
+            }
+
+            &:active, &:hover {
+                background-color: rgb(255, 4, 255);
+                border-radius: 10px;
+
+                a {
+                    color: rgb(49, 2, 49);
+                }
+            }
+        }
+    }
+}

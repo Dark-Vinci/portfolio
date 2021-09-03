@@ -1,0 +1,32 @@
+.container {
+    background-color: rgb(130, 5, 130);
+    color: white;
+    margin: 0px;
+    padding-top: 35px;
+    // color: rgb(1, 51, 1);
+    color: white;
+    box-sizing: border-box;
+
+    h3 {
+        font-weight: bold;
+        font-size: 30px;
+        color: white;
+        box-sizing: border-box;
+    }
+
+    & > div {
+        ul {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+            list-style-type: none;
+            font-size: 16px;
+            color: white;
+
+            li{
+                margin: 3px 0px;
+                font-size: 20px;
+            }
+        }
+    }
+}

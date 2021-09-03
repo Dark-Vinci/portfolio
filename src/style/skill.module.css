@@ -1,0 +1,22 @@
+.container {
+  color: white;
+  background-color: #100210;
+  margin: 0px;
+  padding: 0px;
+  padding: 20px 0px;
+}
+
+.container h3 {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container ul {
+  list-style-type: none;
+  margin: 20px 0px;
+  padding: 0px;
+}
+/*# sourceMappingURL=skill.module.css.map */

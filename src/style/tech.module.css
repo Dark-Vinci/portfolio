@@ -1,0 +1,33 @@
+.container {
+  background-color: #820582;
+  color: white;
+  margin: 0px;
+  padding-top: 35px;
+  color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container h3 {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container > div ul {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  font-size: 16px;
+  color: white;
+}
+
+.container > div ul li {
+  margin: 3px 0px;
+  font-size: 20px;
+}
+/*# sourceMappingURL=tech.module.css.map */
