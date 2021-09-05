@@ -16,6 +16,8 @@
     h3 {
         font-size: 30px;
         color: rgb(252, 179, 252);
+        margin-left: 0px;
+        padding: 0px;
     }
 
     ul {
@@ -24,6 +26,11 @@
         margin-left: 0px;
         padding: 0px;
         text-align: left;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // text-align: center;
+        // flex-direction: column;
 
         li {
             margin-left: 0px;
@@ -33,6 +40,7 @@
             font-size: 20px;
             padding: 10px 5px;
             transition: all 0.5s;
+            text-align:center;
 
             a {
                 text-decoration: none;

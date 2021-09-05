@@ -6,7 +6,7 @@ import Header from './container/header';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ maxWidth: '100vw' }}>
       <Header />
       <Body />
       <Footer />

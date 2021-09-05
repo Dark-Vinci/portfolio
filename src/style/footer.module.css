@@ -36,4 +36,10 @@ footer.container > div:nth-child(2) > ul li {
   text-align: left;
   max-width: 150px;
 }
+
+footer.container > div:nth-child(2) > ul li a {
+  text-decoration: none;
+  color: white;
+  max-width: 80%;
+}
 /*# sourceMappingURL=footer.module.css.map */

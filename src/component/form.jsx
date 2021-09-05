@@ -1,6 +1,6 @@
 import classes from '../style/form.module.css';
 
-function Form ({ inputChangeHandler, value, formSubmit, disable }) {
+function Form ({ inputChangeHandler, value, formSubmit, disable, sent, error }) {
     return (
         <form 
             onSubmit={ formSubmit }
@@ -13,10 +13,25 @@ function Form ({ inputChangeHandler, value, formSubmit, disable }) {
                 value={ value }
                 placeholder="leave a message"
             />
+
+            {/* <input 
+                type="text"
+                onChange={ inputChangeHandler }
+                value={ value }
+                placeholder="leave a message"
+            /> */}
             <button 
                 type="submit"
                 disable={ disable }
-            >send</button>
+            >
+                {
+                    sent ?
+                        'sent' :
+                        error ?
+                            'not sent' :
+                            'send'
+                }
+            </button>
         </form>
     );
 }

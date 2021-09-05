@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { motion } from 'framer-motion';
 
 import Menu from '../component/men';
 import classes from '../style/header.module.css';
@@ -11,6 +12,7 @@ function Header () {
     const menuClickHandler = () => {
         setOpenMenu(!openMenu);
     }
+    
     return (
         <header
             className={ classes.container }
@@ -51,10 +53,23 @@ function Header () {
                 width: '50px',
                 height: '50px'
             }}/>
-            <h2>{ "<Hello />" } </h2>
+            <motion.h2
+                animate={{ y: 0 }}
+                initial={{ y: '-100vh' }}
+                transition={{ type: 'spring', stiffness: 120, delay: 0.5 }}
+            >{ "<Hello />" } </motion.h2>
             <div className="emoji"></div>
-            <p>Tomiwa here</p>
-            <div>Welcome to my portfolio</div>
+            <motion.p
+                animate={{ x: 0 }}
+                initial={{ x: '100vw' }}
+                transition={{ type: 'spring', stiffness: 120, delay: 2 }}
+            >Tomiwa here</motion.p>
+            <motion.div
+                animate={{ y: 0 }}
+                initial={{ y: '100vh' }}
+                transition={{ type: 'spring', stiffness: 120 , delay: 3 }}
+            >Welcome to my portfolio</motion.div>
+            {/* <div>welcome here</div> */}
         </header>
     );
 }

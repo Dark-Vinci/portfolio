@@ -7,11 +7,12 @@ function Menu ({ open, click }) {
     return (
         <div
             style={{
-                top: open ? '10vh': '-150vh'
+                top: open ? '10vh': '-150vh',
+                zIndex: 50
             }}
             className={ cla.join(' ') }
         >
-            <h3>move to</h3>
+            <h3>TO</h3>
             <ul
                 onClick={ click }
             >

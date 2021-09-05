@@ -14,9 +14,9 @@ function Footer () {
                 <p>Contacts</p>
                 <ul>
                     <li><FaPhoneSquare color='yellow' fontSize='30px'/> +2349034119761</li>
-                    <li><FaGithub color='white' fontSize='30px'/>   github</li>
+                    <li><a href='https://github.com/Dark-Vinci'><FaGithub color='white' fontSize='30px'/>  github</a></li>
                     <li><MdEmail color='aqua' fontSize='30px'/>    email</li>
-                    <li><FaTwitterSquare color='blue' fontSize='30px'/>    twitter</li>
+                    <li><a href="twitter"><FaTwitterSquare color='blue' fontSize='30px'/>    twitter</a></li>
                 </ul>
             </div>
             <div>copyright <FaCopyright /> { (new Date()).getFullYear() }- tomiwa tech</div>

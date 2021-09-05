@@ -27,6 +27,8 @@
 .container h3 {
   font-size: 30px;
   color: #fcb3fc;
+  margin-left: 0px;
+  padding: 0px;
 }
 
 .container ul {
@@ -46,6 +48,7 @@
   padding: 10px 5px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  text-align: center;
 }
 
 .container ul li a {

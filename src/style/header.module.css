@@ -17,6 +17,7 @@
           flex-direction: column;
   color: #fda3fd;
   margin-bottom: 0px;
+  z-index: 2;
 }
 
 .container .hand {
