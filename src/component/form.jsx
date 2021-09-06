@@ -12,6 +12,7 @@ function Form ({ inputChangeHandler, value, formSubmit, disable, sent, error }) 
                 onChange={ inputChangeHandler }
                 value={ value }
                 placeholder="leave a message"
+                required
             />
 
             {/* <input 

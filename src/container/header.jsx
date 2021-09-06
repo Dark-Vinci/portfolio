@@ -16,10 +16,10 @@ function Header () {
     return (
         <header
             className={ classes.container }
-            style={{ maxWidth: '100vw' }}
+            style={{ maxWidth: '100vw', boxSizing: 'border-box', zIndex: 0 }}
         >  
             <div className={ classes.icon }
-                style={{ maxWidth: '100vw' }}
+                style={{ maxWidth: '100vw', zIndex: 10 }}
             >
                 <i
                     style={{color: 'white', maxWidth: '100vw' }}
@@ -53,23 +53,41 @@ function Header () {
                 width: '50px',
                 height: '50px'
             }}/>
+
             <motion.h2
+                style={{ zIndex: 0 }}
                 animate={{ y: 0 }}
                 initial={{ y: '-100vh' }}
                 transition={{ type: 'spring', stiffness: 120, delay: 0.5 }}
             >{ "<Hello />" } </motion.h2>
             <div className="emoji"></div>
+
             <motion.p
                 animate={{ x: 0 }}
                 initial={{ x: '100vw' }}
                 transition={{ type: 'spring', stiffness: 120, delay: 2 }}
             >Tomiwa here</motion.p>
+
             <motion.div
                 animate={{ y: 0 }}
                 initial={{ y: '100vh' }}
                 transition={{ type: 'spring', stiffness: 120 , delay: 3 }}
             >Welcome to my portfolio</motion.div>
-            {/* <div>welcome here</div> */}
+            <motion.a
+                style={{
+                    backgroundColor: 'purple',
+                    padding: '14px',
+                    marginTop: '10px',
+                    color: 'white',
+                    borderRadius: '35px',
+                    width:'110px',
+                    fontSize: '20px'
+                }}
+                animate={{ x: 0 }}
+                initial={{ x: '-100vw' }}
+                transition={{ type: 'spring', stiffness: 120 , delay: 5 }}
+                whileHover={{ color: 'red' }}
+            >resume</motion.a>
         </header>
     );
 }

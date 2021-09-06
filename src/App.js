@@ -5,13 +5,14 @@ import Body from './container/body';
 import Header from './container/header';
 
 function App() {
+
   return (
-    <div className="App" style={{ maxWidth: '100vw' }}>
+    <div className="App">
       <Header />
       <Body />
       <Footer />
     </div>
   );  
-}
+}  
 
 export default App;

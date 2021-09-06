@@ -8,7 +8,7 @@ function Menu ({ open, click }) {
         <div
             style={{
                 top: open ? '10vh': '-150vh',
-                zIndex: 50
+                zIndex: 1000,
             }}
             className={ cla.join(' ') }
         >

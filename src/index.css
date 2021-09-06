@@ -16,10 +16,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Quicksand';
-  max-width: 100vw;
+  /* max-width: 100vw; */
   background-color: rgb(141, 7, 141);
   scroll-behavior: smooth;
-  scroll-behavior: smooth;
+  padding: 0px;
+  max-height: 100vh;
+  overflow-x: hidden;
 }
 
 code {
