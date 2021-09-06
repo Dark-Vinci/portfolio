@@ -10,7 +10,7 @@ function projectDocument () {
                     'html', 'scss', 'javascript', 'react'
                 ],
                 githublink: 'github.com/pomodoro',
-                weblink: 'github.com/pomodoro'
+                weblink: 'github.com/pomodoro'  
             },
 
             {
@@ -196,19 +196,7 @@ function projectDocument () {
                 githublink: 'github.com/pomodoro',
                 weblink: 'github.com/pomodoro'
             }
-        ],
-
-        // full: [
-        //     {
-        //         title: '',
-        //         decription: 'a clone of 2048 game using pure html, css and javascript',
-        //         technology: [
-        //             'html', 'css', 'javascript'
-        //         ],
-        //         githublink: 'github.com/pomodoro',
-        //         weblink: 'github.com/pomodoro'
-        //     }
-        // ]
+        ]
     }
 
     return toReturn;

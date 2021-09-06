@@ -21,6 +21,7 @@ function Header () {
             <div className={ classes.icon }
                 style={{ maxWidth: '100vw', zIndex: 10 }}
             >
+                {/* <div>hfj</div> */}
                 <i
                     style={{color: 'white', maxWidth: '100vw' }}
                     onClick={ menuClickHandler }
@@ -76,7 +77,7 @@ function Header () {
             <motion.a
                 style={{
                     backgroundColor: 'purple',
-                    padding: '14px',
+                    padding: '12px',
                     marginTop: '10px',
                     color: 'white',
                     borderRadius: '35px',

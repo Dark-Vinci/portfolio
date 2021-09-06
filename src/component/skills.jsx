@@ -17,8 +17,9 @@ function Skill () {
                 <li>Consuming Restful API</li>
                 <li>Writing Semantic HTML</li>
                 <li>Mongodb Database Design</li>
+                <li>Making Website Responsive</li>
                 <li>React Functional Components</li>
-                <li>Creating beautiful restful API endpoints</li>
+                <li>Creating beautiful restful API endpoint</li>
             </ul>
         </div>
     );

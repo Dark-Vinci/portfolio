@@ -1,5 +1,5 @@
 .container {
-    border: 2px solid rgb(242, 190, 235);
+    // border: 2px solid rgb(242, 190, 235);
     margin: 10px;
     width: 290px;
     border-radius: 30px;
@@ -48,7 +48,8 @@
             }
 
             &:nth-child(1) {
-                border: 3px solid black;
+                border: 2px solid white;
+                background-color: rgb(24, 0, 24);
             }
         }
     }
@@ -85,5 +86,9 @@
                 font-size: 20px;
             }
         }
+    }
+
+    &:hover {
+        box-shadow: -2px 2px 5px rgb(15, 15, 15);
     }
 }

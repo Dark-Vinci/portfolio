@@ -14,13 +14,7 @@ function Form ({ inputChangeHandler, value, formSubmit, disable, sent, error }) 
                 placeholder="leave a message"
                 required
             />
-
-            {/* <input 
-                type="text"
-                onChange={ inputChangeHandler }
-                value={ value }
-                placeholder="leave a message"
-            /> */}
+            
             <button 
                 type="submit"
                 disable={ disable }

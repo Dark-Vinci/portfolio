@@ -12,9 +12,12 @@ function About () {
                 With the help of javascript and the technology built around it,
                 I can create beatiful restful API endpoint and good looking user
                 friendly and easily navigatable website.
+                <div><strong>Seeing my test pass is indeed a true source of happiness to me.</strong></div>
             </div>
             <div>
-                <h4>Know me more</h4>
+                <h4
+                    style={{ color: 'black', fontSize: '25px' }}
+                >Know me more</h4>
                 {/* <img src=""  /> */}
                 <p>
                     My name is Tomiwa and I am a graduate of Physics.
