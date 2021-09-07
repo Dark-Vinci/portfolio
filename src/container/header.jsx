@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { HiMenu } from 'react-icons/hi';
+import { HiHand } from 'react-icons/hi';
 
 import Menu from '../component/men';
 import classes from '../style/header.module.css';
-import { HiMenu } from 'react-icons/hi';
-import { HiHand } from 'react-icons/hi';
+import myCv from '../asset/pdf/CURRICULUM.pdf';
 
 function Header () {
     const [ openMenu, setOpenMenu ] = useState(false);
@@ -82,12 +83,14 @@ function Header () {
                     color: 'white',
                     borderRadius: '35px',
                     width:'110px',
+                    textDecoration: 'none',
                     fontSize: '20px'
                 }}
                 animate={{ x: 0 }}
                 initial={{ x: '-100vw' }}
                 transition={{ type: 'spring', stiffness: 120 , delay: 5 }}
-                whileHover={{ color: 'red' }}
+                download
+                href={ myCv }
             >resume</motion.a>
         </header>
     );

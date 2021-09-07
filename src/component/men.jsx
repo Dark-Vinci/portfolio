@@ -17,15 +17,18 @@ function Menu ({ open, click }) {
                 onClick={ click }
             >
                 <li><a href="#top">Top</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#technology">technology</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li> <a href="#about">about</a></li>
-                <li><a href="#form">message</a></li>
-                <li><a href="#footer">contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#footer">Contact</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#form">Message</a></li>
+                <li><a href="#technology">Technology</a></li>
             </ul>
         </div>
     );
 }
 
 export default Menu;
+
+// err.response,
+// err.request

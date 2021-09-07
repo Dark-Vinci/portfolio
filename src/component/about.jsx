@@ -1,4 +1,5 @@
 import classes from '../style/about.module.css';
+import avatar from '../asset/image/Screenshot_20210906-154201_1.png';
 
 function About () {
     return (
@@ -18,7 +19,12 @@ function About () {
                 <h4
                     style={{ color: 'black', fontSize: '25px' }}
                 >Know me more</h4>
-                {/* <img src=""  /> */}
+                <img 
+                    src={ avatar }  
+                    alt='my-profile'
+                    style={{ borderRadius: '50%', width: '250px', height: '250px' }}
+                    
+                />
                 <p>
                     My name is Tomiwa and I am a graduate of Physics.
                     I fell in love with javascript and the web after 

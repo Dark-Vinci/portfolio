@@ -5,7 +5,7 @@
     align-items: center;
     color: white;
     background-color: rgb(209, 3, 209);
-    height: 250px;
+    height: 360px;
 
     input {
         background-color: transparent;
@@ -15,9 +15,29 @@
         margin: 20px 0px;
         width: 250px;
         border-bottom: 2px solid rgb(48, 2, 48);
+        font-family: inherit;
+        transition: all 0.5s;
 
         &:active, &:focus {
             border-bottom: 2px solid rgb(242, 76, 242);
+        }
+    }
+
+    textarea {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        text-align: center;
+        margin: 20px 0px;
+        width: 250px;
+        border: 2px solid rgb(48, 2, 48);
+        border-radius: 10px;
+        resize: none;
+        font-family: inherit;
+        transition: all 0.5s;
+
+        &:active, &:focus {
+            border: 2px solid rgb(242, 76, 242);
         }
     }
 
@@ -32,7 +52,6 @@
         font-family: inherit;
         border-radius: 30px;
         background-color: rgb(77, 3, 77);
-        border: 2px solid white;
         transition: all 0.5s;
 
         &:active, &:hover {

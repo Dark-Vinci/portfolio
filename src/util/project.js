@@ -185,16 +185,6 @@ function projectDocument () {
                 ],
                 githublink: 'github.com/pomodoro',
                 weblink: 'github.com/pomodoro'
-            },
-
-            {
-                title: '2048',
-                decription: 'a clone of 2048 game using pure html, css and javascript',
-                technology: [
-                    'html', 'css', 'javascript'
-                ],
-                githublink: 'github.com/pomodoro',
-                weblink: 'github.com/pomodoro'
             }
         ]
     }

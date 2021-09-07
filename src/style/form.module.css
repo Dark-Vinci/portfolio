@@ -14,7 +14,7 @@
           align-items: center;
   color: white;
   background-color: #d103d1;
-  height: 250px;
+  height: 360px;
 }
 
 .container input {
@@ -25,10 +25,32 @@
   margin: 20px 0px;
   width: 250px;
   border-bottom: 2px solid #300230;
+  font-family: inherit;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .container input:active, .container input:focus {
   border-bottom: 2px solid #f24cf2;
+}
+
+.container textarea {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  text-align: center;
+  margin: 20px 0px;
+  width: 250px;
+  border: 2px solid #300230;
+  border-radius: 10px;
+  resize: none;
+  font-family: inherit;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.container textarea:active, .container textarea:focus {
+  border: 2px solid #f24cf2;
 }
 
 .container button {
@@ -42,7 +64,6 @@
   font-family: inherit;
   border-radius: 30px;
   background-color: #4d034d;
-  border: 2px solid white;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
