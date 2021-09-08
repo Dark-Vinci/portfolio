@@ -5,7 +5,7 @@ import { HiHand } from 'react-icons/hi';
 
 import Menu from '../component/men';
 import classes from '../style/header.module.css';
-import myCv from '../asset/pdf/CURRICULUM.pdf';
+// import myCv from '../asset/pdf/CURRICULUM.pdf';
 
 function Header () {
     const [ openMenu, setOpenMenu ] = useState(false);
@@ -74,8 +74,8 @@ function Header () {
                 animate={{ y: 0 }}
                 initial={{ y: '100vh' }}
                 transition={{ type: 'spring', stiffness: 120 , delay: 3 }}
-            >Welcome to my portfolio</motion.div>
-            <motion.a
+            >Welcome to my portfolio</motion.div>     
+            {/* <motion.a
                 style={{
                     backgroundColor: 'purple',
                     padding: '12px',
@@ -91,7 +91,7 @@ function Header () {
                 transition={{ type: 'spring', stiffness: 120 , delay: 5 }}
                 download
                 href={ myCv }
-            >resume</motion.a>
+            >resume</motion.a> */}    
         </header>
     );
 }
