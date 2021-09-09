@@ -35,7 +35,7 @@ function About () {
                     my computer rain the color of my choice which are html, css and javaScript.
                     After a long while of studying and practicing, I finally developed my own version 
                     of the 'purple rain' which I call colorful rain/ rain of rainbows. Its 
-                    a webapp that rains rain of varities of color. To view click <a href='colorful rain'>here</a>
+                    a webapp that rains rain of varities of color. To view click <a target='blank' href='https://dark-vinci.github.io/colorful-rain'>here</a>
                 </p>
 
                 <p>

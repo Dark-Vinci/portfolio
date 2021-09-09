@@ -6,7 +6,7 @@ function Skill () {
             className={ classes.container }
             id='skills'
         >
-            <h3>Top Skill sets</h3>
+            <h3>Top Skills</h3>
             <ul>
                 <li>Es6+</li>
                 <li>GOOGLING</li>

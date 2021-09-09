@@ -9,8 +9,8 @@ function projectDocument () {
                 technology: [
                     'html', 'scss', 'javascript', 'react'
                 ],
-                githublink: 'github.com/pomodoro',
-                weblink: 'github.com/pomodoro'  
+                githublink: 'https://github.com/Dark-Vinci/pomodoro',
+                weblink: 'https://dark-vinci.github.io/pomodoro'  
             },
 
             {
@@ -19,8 +19,8 @@ function projectDocument () {
                 technology: [
                     'html', 'scss', 'javascript', 'react'
                 ],
-                githublink: 'github.com/pomodoro',
-                weblink: 'github.com/pomodoro'
+                githublink: 'https://github.com/Dark-Vinci/burgerz',
+                weblink: 'https://dark-vinci.github.io/burgerz'
             },
 
             {
@@ -29,8 +29,8 @@ function projectDocument () {
                 technology: [
                     'html', 'scss', 'javascript', 'react'
                 ],
-                githublink: 'github.com/pomodoro',
-                weblink: 'github.com/pomodoro'
+                githublink: 'https://github.com/Dark-Vinci/zsol',
+                weblink: 'https://dark-vinci.github.io/zsol' 
             },
 
             {
@@ -39,8 +39,8 @@ function projectDocument () {
                 technology: [
                     'html', 'scss', 'javascript', 'react', 'redux'
                 ],
-                githublink: 'github.com/pomodoro',
-                weblink: 'github.com/pomodoro'
+                githublink: 'https://github.com/Dark-Vinci/art-frontend',
+                weblink: 'https://dark-vinci.github.io/art-frontend' 
             },
 
             {
@@ -49,8 +49,8 @@ function projectDocument () {
                 technology: [
                     'html', 'scss', 'javascript', 'react', 'redux'
                 ],
-                githublink: 'github.com/pomodoro',
-                weblink: 'github.com/pomodoro'
+                githublink: 'https://github.com/Dark-Vinci/anonymous-frontend',
+                weblink: 'https://dark-vinci.github.io/anonymous-frontend' 
             },
 
             {
@@ -59,30 +59,28 @@ function projectDocument () {
                 technology: [
                     'html', 'scss', 'javascript', 'react'
                 ],
-                githublink: 'github.com/pomodoro',
-                weblink: 'github.com/pomodoro'
+                githublink: 'https://github.com/Dark-Vinci/portfolio',
+                weblink: 'https://dark-vinci.github.io/portfolio' 
             }
         ],
 
         backEnd: [
-            {
-                title: 'school manager',
-                decription: 'a restful api endpoint for managing the activity of a secondry school, from teachers to students to classes and so on',
-                technology: [
-                    'node.js', 'express', 'mongodb', 'mongoose'
-                ],
-                githublink: 'github.com/pomodoro',
-                weblink: 'github.com/pomodoro'
-            },
-
             {
                 title: 'blog',
                 decription: 'a server side rendered app for creating blog posts',
                 technology: [
                     'node.js', 'express', 'mongodb', 'mongoose', 'css', 'ejs'
                 ],
-                githublink: 'github.com/pomodoro',
-                weblink: 'github.com/pomodoro'
+                githublink: 'https://github.com/Dark-Vinci/blog'
+            },
+
+            {
+                title: 'school manager',
+                decription: 'a restful api endpoint for managing the activity of a secondry school, from teachers to students to classes and so on',
+                technology: [
+                    'node.js', 'express', 'mongodb', 'mongoose'
+                ],
+                githublink: 'https://github.com/Dark-Vinci/school-backend-app'
             },
 
             {
@@ -91,8 +89,7 @@ function projectDocument () {
                 technology: [
                     'node.js', 'express', 'mongodb', 'mongoose'
                 ],
-                githublink: 'github.com/pomodoro',
-                weblink: 'github.com/pomodoro'
+                githublink: 'https://github.com/Dark-Vinci/pixel-art'
             },
 
             {
@@ -101,8 +98,7 @@ function projectDocument () {
                 technology: [
                     'node.js', 'express', 'mongodb', 'mongoose'
                 ],
-                githublink: 'github.com/pomodoro',
-                weblink: 'github.com/pomodoro'
+                githublink: 'https://github.com/Dark-Vinci/social'
             },
 
             {
@@ -111,8 +107,7 @@ function projectDocument () {
                 technology: [
                     'node.js', 'express', 'mongodb', 'mongoose'
                 ],
-                githublink: 'github.com/pomodoro',
-                weblink: 'github.com/pomodoro'
+                githublink: 'https://github.com/Dark-Vinci/shop-diary'
             },
 
             {
@@ -121,8 +116,7 @@ function projectDocument () {
                 technology: [
                     'node.js', 'express', 'mongodb', 'mongoose'
                 ],
-                githublink: 'github.com/pomodoro',
-                weblink: 'github.com/pomodoro'
+                githublink: 'https://github.com/Dark-Vinci/dna-backend'
             },
 
             {
@@ -131,8 +125,7 @@ function projectDocument () {
                 technology: [
                     'node.js', 'express', 'mongodb', 'mongoose'
                 ],
-                githublink: 'github.com/pomodoro',
-                weblink: 'github.com/pomodoro'
+                githublink: 'https://github.com/Dark-Vinci/movies-music'
             },
 
             {
@@ -141,8 +134,7 @@ function projectDocument () {
                 technology: [
                     'node.js', 'express', 'mongodb', 'mongoose'
                 ],
-                githublink: 'github.com/pomodoro',
-                weblink: 'github.com/pomodoro'
+                githublink: 'https://github.com/Dark-Vinci/anonymous-backend'
             }
         ],
 
@@ -153,8 +145,8 @@ function projectDocument () {
                 technology: [
                     'html', 'css', 'javascript'
                 ],
-                githublink: 'github.com/pomodoro',
-                weblink: 'github.com/pomodoro'
+                githublink: 'https://github.com/Dark-Vinci/colorful-rain',
+                weblink: 'https://dark-vinci.github.io/colorful-rain' 
             },
 
             {
@@ -163,8 +155,8 @@ function projectDocument () {
                 technology: [
                     'html', 'css', 'javascript'
                 ],
-                githublink: 'github.com/pomodoro',
-                weblink: 'github.com/pomodoro'
+                githublink: 'https://github.com/Dark-Vinci/gradient-generator',
+                weblink: 'https://dark-vinci.github.io/gradient-generator' 
             },
 
             {
@@ -173,8 +165,8 @@ function projectDocument () {
                 technology: [
                     'html', 'css', 'javascript'
                 ],
-                githublink: 'github.com/pomodoro',
-                weblink: 'github.com/pomodoro'
+                githublink: 'https://github.com/Dark-Vinci/color-generator',
+                weblink: 'https://dark-vinci.github.io/color-generator' 
             },
 
             {
@@ -183,8 +175,8 @@ function projectDocument () {
                 technology: [
                     'html', 'css', 'javascript'
                 ],
-                githublink: 'github.com/pomodoro',
-                weblink: 'github.com/pomodoro'
+                githublink: 'https://github.com/Dark-Vinci/flex-box',
+                weblink: 'https://dark-vinci.github.io/flex-box' 
             }
         ]
     }

@@ -33,12 +33,15 @@ function ProjectCard ({ title, description, githublink, weblink, technology }) {
                     target='blank'
                 >github</a>
 
+            { 
+                weblink ?
                 <a 
                     href={ weblink }
                     target='blank'
                 >
                     link 
-                <AiOutlineLink  style={{ margin: '4px'}}/></a>
+                <AiOutlineLink  style={{ margin: '4px'}}/></a>: null
+            }
             </div>
         </div>
     );

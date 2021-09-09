@@ -29,6 +29,3 @@ function Menu ({ open, click }) {
 }
 
 export default Menu;
-
-// err.response,
-// err.request

@@ -33,7 +33,7 @@ function Form ({ email, text, formSubmit, loading, sent, error, emailChangeHandl
                     sent ?
                         'sent' :
                         loading ?
-                            'loading...':
+                            'sending...':
                         error ?
                             'not sent' :
                             'send'

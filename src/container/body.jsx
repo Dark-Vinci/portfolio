@@ -52,7 +52,8 @@ function Body () {
             setLoading(true);
             setSent(false);
 
-            await axios.post('http://localhost:1212/api/main/message', data);
+            await axios.post('https://proj-tom-xv10w.herokuapp.com/api/main/message', data);
+            // await axios.post('http://localhost:1212/api/main/message', data);
 
             setLoading(false);
             setError(false);
@@ -61,13 +62,6 @@ function Body () {
             setLoading(false);
             setError(true);
             setSent(false);
-            if (ex.request) {
-                console.log('something dey wrong with server')
-            } else if (ex.response) {
-                console.log('be like sey you dey ment')
-            } else {
-                console.log(ex.message);
-            }
         }
     }
 

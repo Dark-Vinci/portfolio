@@ -13,11 +13,6 @@ function Footer () {
             <div>
                 <p>Contacts</p>
                 <ul>
-                    {/* <li><FaPhoneSquare color='yellow' fontSize='30px'/> +2349034119761</li>
-                    <li><a href='https://github.com/Dark-Vinci'><FaGithub color='white' fontSize='30px'/>  github</a></li>
-                    <li><MdEmail color='aqua' fontSize='30px'/>    email</li>
-                    <li><a href="twitter"><FaTwitterSquare color='blue' fontSize='30px'/>    twitter</a></li> */}
-
                     <li><FaPhoneSquare color='yellow' fontSize='30px'/> +2349034119761</li>
                     <li>
                         <a href='https://github.com/Dark-Vinci' target='blank'>
