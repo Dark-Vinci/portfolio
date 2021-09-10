@@ -11,7 +11,7 @@ function Tech () {
             <h3>Tech proficiency <GrTechnology
                 color="white"
             /> </h3>
-            <div>
+            <div className={ classes.ul }>
                 <ul>
                     <li>html5 {' '}
                         <FaHtml5 

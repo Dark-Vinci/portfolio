@@ -12,7 +12,7 @@ function Menu ({ open, click }) {
             }}
             className={ cla.join(' ') }
         >
-            <h3>TO</h3>
+            {/* <h3>TO</h3> */}
             <ul
                 onClick={ click }
             >

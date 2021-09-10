@@ -11,9 +11,9 @@ function About () {
             <div>
                 Hey, my name is Ademola Olutomiwa, I am a javascript developer.
                 With the help of javascript and the technology built around it,
-                I can create beatiful restful API endpoint and good looking user
+                I build beautiful restful API endpoint and good looking user
                 friendly and easily navigatable website.
-                <div><strong>Seeing my test pass is indeed a true source of happiness to me.</strong></div>
+                <div><strong>Seeing my test pass is indeed my true source of happiness { ';)' }</strong></div>
             </div>
             <div>
                 <h4
@@ -30,33 +30,42 @@ function About () {
                     I fell in love with javascript and the web after 
                     seeing a developer coded the purple rain on youtube back in 2017.
                     After I graduated in 2018, I was so curious and wanted to make my
-                    computer rain any color of my choice.I decided to learn the language the guy used in the 
+                    computer rain any color of my choice. I decided to learn the language the guy used in the 
                     video. After that I decided to learn the technology that would help make my 
                     my computer rain the color of my choice which are html, css and javaScript.
                     After a long while of studying and practicing, I finally developed my own version 
                     of the 'purple rain' which I call colorful rain/ rain of rainbows. Its 
-                    a webapp that rains rain of varities of color. To view click <a target='blank' href='https://dark-vinci.github.io/colorful-rain'>here</a>
+                    a webapp that rains rain of varities of color. To view click 
+                    <a 
+                        target='blank' 
+                        href='https://dark-vinci.github.io/colorful-rain'
+                        style={{ 
+                            textDecoration: 'none', 
+                            color: 'white', 
+                            marginLeft: '5px', 
+                            border: '2px solid white',
+                            borderRadius: '8px', 
+                            padding: '0px'
+                        }}
+                    >
+                        here
+                    </a>
                 </p>
 
                 <p>
-                    After performing first task coding the colorful rain, the passion i had for the 
-                    web soared astronomically that i couldn't stop at just html, css and javaScript...
-                    i fell i love with the web and decided to make a carier out of it. so i processed
-                    learning other technologies around the web to be not just an hobbist programmer
-                    but also a professional one.
-                </p>
-
-                <p>
-                    After building the colorful rain app, since then i cant just stop building.
-                    Its something i enjoy and would want to spend all my time doing expect sometimes
-                    when i hit some really though bugs { ';)' }  . Generally, im a very curious and creative individual that
-                    would not give up until the code works perfectly and efficiently
+                    After performing first task coding the colorful rain, my passion for  
+                    web technology soared astronomically that I couldn't stop at just html, css and javaScript.
+                    I fell in love with the web and decided to make a career out of it. So I processed in taking
+                    more intense and rigorous courses on freeCodeCamp, Udemy, youtube and codewithmosh.com to ground
+                    my knowledge of web technologies. I love to work with other developer and designers to solve problem
+                    and convert design to quality and well uptimized code. I love to build, it something I enjoy and can't 
+                    see myself not doing.
                 </p>
 
                 <p>
                     I am open to both frontend and backend javascript role.
-                    im good with an office work and also a fan of remote jobs.
-                    leave a message here if you have any offer for me. 
+                    I'm good with an office work and also a fan of remote jobs.
+                    Leave a message here if you have any offer for me. 
                     Thanks for reading my long and not so boring personal essay.
                 </p>
             </div>

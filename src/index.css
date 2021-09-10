@@ -24,7 +24,9 @@ body {
 }
 
 input, textarea {
-  color: white;
+  color: rgb(34, 2, 43);
+  font-weight: bold;
+  font-size: 17px;
 }
 
 code {

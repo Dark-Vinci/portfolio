@@ -16,7 +16,19 @@
           box-sizing: border-box;
 }
 
-.container > div ul {
+.container > div.ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container > div.ul ul {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0px;
@@ -24,10 +36,14 @@
   list-style-type: none;
   font-size: 16px;
   color: white;
+  width: 300px;
+  text-align: left;
 }
 
-.container > div ul li {
+.container > div.ul ul li {
   margin: 3px 0px;
   font-size: 20px;
+  margin-left: 45px;
+  padding-left: 40px;
 }
 /*# sourceMappingURL=tech.module.css.map */

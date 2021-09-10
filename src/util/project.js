@@ -4,8 +4,8 @@ function projectDocument () {
     const toReturn = {
         frontEnd: [
             {
-                title: 'pomodoro',
-                decription: 'a webapp help with timing and time management using the pomodoro technique which was developed by Franchesco Cirillo ',
+                title: 'Pomodoro',
+                decription: 'A webapp that help with timing and workflow session using the pomodoro technique which was developed by Franchesco Cirillo ',
                 technology: [
                     'html', 'scss', 'javascript', 'react'
                 ],
@@ -14,8 +14,8 @@ function projectDocument () {
             },
 
             {
-                title: 'burger mine',
-                decription: 'a webapp for building and ordering free burger',
+                title: 'Burger mine',
+                decription: 'A webapp for building and ordering free burger',
                 technology: [
                     'html', 'scss', 'javascript', 'react'
                 ],
@@ -25,7 +25,7 @@ function projectDocument () {
 
             {
                 title: 'zsol',
-                decription: 'a webapp that show a list of menu of a resturant called zsol',
+                decription: 'A webapp that show a list of menu of a resturant called Bukka',
                 technology: [
                     'html', 'scss', 'javascript', 'react'
                 ],
@@ -35,7 +35,7 @@ function projectDocument () {
 
             {
                 title: 'nft mine',
-                decription: 'a webapp for making nft artworks and also for saaving an nft art',
+                decription: 'A webapp for making free nft artworks and also include saving the artwork to the db',
                 technology: [
                     'html', 'scss', 'javascript', 'react', 'redux'
                 ],
@@ -45,7 +45,7 @@ function projectDocument () {
 
             {
                 title: 'anontext',
-                decription: 'a webapp for sending a known person an anonymous messages',
+                decription: 'A webapp for sending a known person an anonymous messages',
                 technology: [
                     'html', 'scss', 'javascript', 'react', 'redux'
                 ],
@@ -55,7 +55,7 @@ function projectDocument () {
 
             {
                 title: 'portfolio',
-                decription: 'my professional portfolio site',
+                decription: 'my personal portfolio site',
                 technology: [
                     'html', 'scss', 'javascript', 'react'
                 ],
@@ -66,8 +66,8 @@ function projectDocument () {
 
         backEnd: [
             {
-                title: 'blog',
-                decription: 'a server side rendered app for creating blog posts',
+                title: 'Blog',
+                decription: 'A server side rendered app for creating blog posts',
                 technology: [
                     'node.js', 'express', 'mongodb', 'mongoose', 'css', 'ejs'
                 ],
@@ -75,8 +75,8 @@ function projectDocument () {
             },
 
             {
-                title: 'school manager',
-                decription: 'a restful api endpoint for managing the activity of a secondry school, from teachers to students to classes and so on',
+                title: 'School Manager',
+                decription: 'A restful api endpoint for managing the activity of a secondary school, from teachers to students to classes and so on',
                 technology: [
                     'node.js', 'express', 'mongodb', 'mongoose'
                 ],
@@ -85,7 +85,7 @@ function projectDocument () {
 
             {
                 title: 'nft mine backend',
-                decription: 'a restful endpoint that save the artworks from the front end of the nft mine app',
+                decription: 'A restful endpoint that saves the artworks from the front end of the nft mine app',
                 technology: [
                     'node.js', 'express', 'mongodb', 'mongoose'
                 ],
@@ -94,7 +94,7 @@ function projectDocument () {
 
             {
                 title: 'social',
-                decription: 'a restful API end social media endpoint that is moddelled after twitter',
+                decription: 'A restful API end social media endpoint that is modelled after twitter',
                 technology: [
                     'node.js', 'express', 'mongodb', 'mongoose'
                 ],
@@ -103,7 +103,7 @@ function projectDocument () {
 
             {
                 title: 'change',
-                decription: 'an endpoint for traders for managing their service charges and debtors',
+                decription: 'an endpoint for traders and shop owners for managing their service charges and debtors',
                 technology: [
                     'node.js', 'express', 'mongodb', 'mongoose'
                 ],
@@ -112,7 +112,7 @@ function projectDocument () {
 
             {
                 title: 'dna webhouse',
-                decription: 'the resful endpoint of a website for remotely conducting paternity test for a patient',
+                decription: 'A resful endpoint of a website for remotely conducting paternity test for a patient',
                 technology: [
                     'node.js', 'express', 'mongodb', 'mongoose'
                 ],
@@ -121,7 +121,7 @@ function projectDocument () {
 
             {
                 title: 'movie/music app',
-                decription: 'the backend restful endpoint for watching a movie or listening to a song',
+                decription: 'A restful endpoint for watching a movie or listening to a song',
                 technology: [
                     'node.js', 'express', 'mongodb', 'mongoose'
                 ],
@@ -130,7 +130,7 @@ function projectDocument () {
 
             {
                 title: 'anontext',
-                decription: 'a restfulful service for sending anonymous messages to a known person',
+                decription: 'A restful service for sending anonymous messages to a known person',
                 technology: [
                     'node.js', 'express', 'mongodb', 'mongoose'
                 ],
@@ -141,7 +141,7 @@ function projectDocument () {
         html: [
             {
                 title: 'colorful rain',
-                decription: 'a website that simulates rain drops with different color of the rain',
+                decription: 'A website that simulates rain drops with different colors of the rain',
                 technology: [
                     'html', 'css', 'javascript'
                 ],
@@ -161,7 +161,7 @@ function projectDocument () {
 
             {
                 title: 'colorful.com',
-                decription: 'a web app for generating a number of unique colors',
+                decription: 'A web app for generating a number of unique colors',
                 technology: [
                     'html', 'css', 'javascript'
                 ],
@@ -171,7 +171,7 @@ function projectDocument () {
 
             {
                 title: 'flex box visualizer',
-                decription: 'a website for visualizing how flex blox work by manipulating the dom using vanilla javascript with html and css',
+                decription: 'A website for visualizing how flex blox works by manipulating the dom using vanilla javascript with html and css',
                 technology: [
                     'html', 'css', 'javascript'
                 ],

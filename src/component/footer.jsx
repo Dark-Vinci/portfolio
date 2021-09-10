@@ -13,7 +13,7 @@ function Footer () {
             <div>
                 <p>Contacts</p>
                 <ul>
-                    <li><FaPhoneSquare color='yellow' fontSize='30px'/> +2349034119761</li>
+                    {/* <li><FaPhoneSquare color='yellow' fontSize='30px'/> +2349034119761</li> */}
                     <li>
                         <a href='https://github.com/Dark-Vinci' target='blank'>
                             <FaGithub color='white' fontSize='30px'/>
@@ -33,6 +33,7 @@ function Footer () {
                         </a>
                         twitter
                     </li>
+                    <li><FaPhoneSquare color='yellow' fontSize='30px'/> +2349034119761</li>
                 </ul>
             </div>
             <div>copyright <FaCopyright /> { (new Date()).getFullYear() }- tomiwa tech</div>
