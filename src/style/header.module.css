@@ -1,7 +1,6 @@
 .container {
   width: 100vw;
   height: 90vh;
-  background-color: #200020;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,6 +16,7 @@
           flex-direction: column;
   color: white;
   margin-bottom: 0px;
+  background-color: #7c027c;
   z-index: 2;
 }
 
@@ -88,7 +88,8 @@
   position: fixed;
   top: 0px;
   left: 0px;
-  background-color: #2b012b;
+  /* background-color: #2b012b; */
+  background-color: #6b026b;
   padding: 10px;
 }
 

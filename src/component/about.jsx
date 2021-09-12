@@ -31,7 +31,7 @@ function About () {
                     seeing a developer coded the purple rain on youtube back in 2017.
                     After I graduated in 2018, I was so curious and wanted to make my
                     computer rain any color of my choice. I decided to learn the language the guy used in the 
-                    video. After that I decided to learn the technology that would help make my 
+                    video. After that I decided to learn the technology that would help make
                     my computer rain the color of my choice which are html, css and javaScript.
                     After a long while of studying and practicing, I finally developed my own version 
                     of the 'purple rain' which I call colorful rain/ rain of rainbows. Its 
@@ -58,7 +58,7 @@ function About () {
                     I fell in love with the web and decided to make a career out of it. So I processed in taking
                     more intense and rigorous courses on freeCodeCamp, Udemy, youtube and codewithmosh.com to ground
                     my knowledge of web technologies. I love to work with other developer and designers to solve problem
-                    and convert design to quality and well uptimized code. I love to build, it something I enjoy and can't 
+                    and convert design to quality and well optimized code. I love to build, it something I enjoy and can't 
                     see myself not doing.
                 </p>
 

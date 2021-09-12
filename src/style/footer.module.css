@@ -4,10 +4,11 @@ footer.container {
           box-sizing: border-box;
   margin: 0;
   margin-top: 0px;
-  background-color: #150115;
+  background-color: #720072;
   padding: 5px;
   color: white;
   max-width: 100vw;
+  /* color: #290129; */
 }
 
 footer.container > div:nth-child(1) {

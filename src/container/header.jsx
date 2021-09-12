@@ -77,7 +77,7 @@ function Header () {
             >Welcome to my portfolio</motion.div>     
             <motion.a
                 style={{
-                    backgroundColor: 'purple',
+                    backgroundColor: '#290129',
                     padding: '12px',
                     marginTop: '10px',
                     color: 'white',
